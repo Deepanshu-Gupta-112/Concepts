@@ -1,0 +1,35 @@
+1. Variable is created in heap memory.
+2. Heap is relatively large.
+3. Memory has no name.
+4. We have to delete the variable.
+5.Run time memory allocation.
+
+OPERATOR
+new operator:-Its create a variable using DMA head memory.It will return address.
+Ex- int *a =new int;
+a is static in this.
+to store value we have to write *a=10;
+
+to make array using new
+int *a=new int[n];
+
+#include<iostream>
+using namespace std;
+int main(){
+   int *a=new int;
+   *a=10;
+   cout<<*a<<endl;
+   int n;
+   cin>>n;
+   int *arr=new int[n]; //create an array of size 10
+   for(int i=0;i<10;i++){
+   cin>>*(arr+i)<<"";
+   cin>>arr[i];  // will also work
+   }
+   return 0;
+   }
+   
+   
+   delete operator
+   syntax:- delete a;
+   a=  NULL;
