@@ -1,0 +1,58 @@
+Class:-A group of functions and variable bundle in a single unit. 
+Syntax:- 
+class Classn_name{
+private: .. by default everything are private in class
+  int marks:   can't access outside of class.
+public:  
+       char * name;
+       int rollno;
+       float weight;
+       // getter function
+       int getmarks(){
+       return marks;
+       }
+       // setter function
+       void setMarks(int m){
+       marks=m;
+       }
+};
+// calling getters
+s.getmarks();
+Getter and Setter:- If we make variable private then we use them.
+int main(){
+  student s; // object of a class
+  char arr[100]="mohit";
+  s.name=arr; // setting name of s object
+  s.weight=70.5;
+  s.rollno=1;
+  // to print
+  cout<<s.name<< " "<<s.weight<<" "<<s.rollno; 
+}
+ class function:- It is common to all the object of a class;
+ class variable:- Different to each object and will have a diff. copy;
+ 
+ Constructor:- create object of a class function of can't create object of a class. If 
+ you don't create  a constructor a class then will automatic construction called default 
+ construction;
+ 
+ Default Constuctor:- There is no return type and name is same as class name;
+ student()
+ {
+ }
+ 
+ parameterized constructor:- There is no return type and name is same as class name;
+ student(char arr[],float,int r){
+ }
+ //calling of constructor
+ student s1(arr,65,1);
+ 
+ Copy Constructor:-when we have a constructor s1 with properties(deepanshu,12,4th) and we 
+ want another constructor s2 with same properties. Then it is used.
+ Student(student s1){
+ name=s1.name;
+ rollno=s1.rollno;
+ marks=s1.marks;
+ 
+ //calling 
+ student s2(s1)
+ }
