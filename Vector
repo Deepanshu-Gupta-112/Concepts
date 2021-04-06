@@ -1,4 +1,0 @@
-vector:- Resizeable array.
-push-back:- Adds new value to the end of the array.
-pop-back:- Delete an element from end.
-size:- Tells you no filled values in array.
