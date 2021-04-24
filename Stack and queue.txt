@@ -1,0 +1,6 @@
+STACK:- LIFO LAST IN FIRST OUT ORDER
+push:- Insert a new element
+pop():- remove elements from top
+size:- Gives the size
+imEmpty:- check whether stack is empty or not.
+top():- Gives top value
