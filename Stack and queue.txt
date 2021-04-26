@@ -4,3 +4,17 @@ pop():- remove elements from top
 size:- Gives the size
 imEmpty:- check whether stack is empty or not.
 top():- Gives top value
+
+Queue:- FIFO  First in first out( two ends)
+front()
+  |
+  1
+  2
+  3
+  |
+ rear()
+i)push:- insert at rear or back
+ii)pop:- remove element from front
+iii):- value is 1 first element of the queue
+size:- Gives the size
+imEmpty:- check whether stack is empty or not.
