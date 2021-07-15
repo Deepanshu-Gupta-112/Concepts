@@ -1,0 +1,11 @@
+JSX rules
+->return single element
+->Div/section/arcticle 
+->use camelCase for html attribute
+->className instead of class
+->clase every section
+->formatting
+
+CSS JSK rules
+before style=""
+after  style={{color:"red",fontSize:"20px",}}
